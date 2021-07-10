@@ -17,7 +17,7 @@ public class Parser {
         boolean requestedIterations = false;
 
         System.out.println("How many items do u want to get? Write a natural number between 1 and 100. Items will be 450 * x");
-        System.out.println("Please enter \"0\" if you want to get all");
+        System.out.println("Please enter \"0\" if you want to get all (It takes some time)");
         System.out.println("(There are not any validations, enter correct please)");
         System.out.println("x: ");
 
