@@ -69,5 +69,7 @@ fabric.properties
 
 target/
 
+.idea
+
 aboutyou.iml
 aboutYou.json
