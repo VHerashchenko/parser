@@ -133,8 +133,7 @@ public class ProductInformation {
     public void createJsonFile() throws IOException {
         String json = objectMapper.writeValueAsString(entities);
 
-        objectMapper.writeValue(new File("aboutYou.json"),
-                json.replace("\"", ""));
+        objectMapper.writeValue(new File("aboutYou.json"), json);
     }
 
     public ArrayList<EntityFinalObj> getEntities(){
